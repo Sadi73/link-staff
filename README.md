@@ -1,7 +1,7 @@
 # link-staff
 Steps for running the code:
 1.Must have XAMPP installed.
-2. Copy the 2 files (index.php & index.css) on C:\xampp\htdocs\link-staff this location.
+2. Copy the 2 files (index.php & index.css) on the location "C:\xampp\htdocs\link-staff".
 3. Start ""Apache" server.
 4. Finally open your browser and search for "localhost/link-staff"
 
