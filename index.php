@@ -9,7 +9,7 @@
 <body>
 
 	<div class ="header">
-			<h1>Hello, here is your emoji calculator</h1>
+			<h1>Hello, I am your emoji calculator</h1>
 		</div>
 		
 	<div class="main">
@@ -24,18 +24,18 @@
 			<table>
 				<tr>
 					<td>
-						Enput first number:    
+						 Enter first number:    
 					</td>
 					<td>
-						<input type="integer" name="num1">
+						<input type="integer" name="num1" placeholder="Enter a number">
 					</td>
 				</tr>
 				<tr>
 					<td>
-						Enput second number:    
+						Enter second number:    
 					</td>
 					<td>
-						<input type="integer" name="num2">
+						<input type="integer" name="num2" placeholder="Enter a number">
 					</td>
 				</tr>
 				<tr>
@@ -59,6 +59,7 @@
 					echo "<span >Please enter the numbers!!!</span>";
 				}
 				else{
+					echo "Your first number = ".$n1." and your second number = ".$n2."<br>";
 					echo "<span style='color:white'>Addition = ".$n1 + $n2."</span>";
 				}
 				
@@ -71,6 +72,7 @@
 					echo "<span >Please enter the numbers!!!</span>";
 				}
 				else{
+					echo "Your first number = ".$n1." and your second number = ".$n2."<br>";
 					echo "<span style='color:white'>Subtracion = ".$n1 - $n2."</span>";
 				}
 				
@@ -83,6 +85,7 @@
 					echo "<span >Please enter the numbers!!!</span>";
 				}
 				else{
+					echo "Your first number = ".$n1." and your second number = ".$n2."<br>";
 					echo "<span style='color:white'>Multiplication = ".$n1 * $n2."</span>";
 				}
 				
@@ -95,6 +98,7 @@
 					echo "<span >Please enter the numbers!!!</span>";
 				}
 				else{
+					echo "Your first number = ".$n1." and your second number = ".$n2."<br>";
 					echo "<span style='color:white'>Divition = ".$n1 / $n2."</span>";
 				}
 				
