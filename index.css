@@ -1,0 +1,40 @@
+
+.main{
+	background: lightseagreen;
+    height: 500px;
+    width: 560px;
+    margin: auto;
+
+}
+
+.header{
+	    background: darkgray;
+    height: 60px;
+    width: 560px;
+    margin: auto;
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+}
+
+form{
+	    font-family: monospace;
+    font-size: x-large;
+}
+
+.footer{
+		    background: darkgray;
+    height: 60px;
+    width: 560px;
+    margin: auto;
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+
+}
+
+span{
+	color: red;
+    font-family: cursive;
+    font-size: xx-large;
+}
